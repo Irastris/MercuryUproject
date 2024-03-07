@@ -13,9 +13,9 @@ Clone this repository, open the .uproject, and compile the necessary modules onc
 ### Classes
 
 The following classes have been implemented:
- - **FnxBoneConstraintSolverDefinition, FnxRBFBoneConstraint, FnxTwistBoneConstraint**
- These classes are used by various skeletal meshes for improving the final appearance of the character rig during various deformations.
- - **MTransmog**
- This class enables modifying the Transmog_DataTable data table, which is responsible for defining transmogs accessible by each player character, and in combination with CCCustomizableKit facilitates adding entirely new transmogs to the game.
- - **MTableReward, MStoreProduct**
- These classes enable modifying the CaseFileRewards and StoreProducts data tables, which collectively facilitate actually unlocking new transmogs in-game depending on the platform being played on.
+* **FnxBoneConstraintSolverDefinition, FnxRBFBoneConstraint, FnxTwistBoneConstraint**
+  - These classes are used by various skeletal meshes for improving the final appearance of the character rig during various deformations.
+* **MTransmog**
+  - This class enables modifying the Transmog_DataTable data table, which is responsible for defining transmogs accessible by each player character, and in combination with CCCustomizableKit facilitates adding entirely new transmogs to the game.
+* **MTableReward, MStoreProduct**
+  - These classes enable modifying the CaseFileRewards and StoreProducts data tables, which collectively facilitate actually unlocking new transmogs in-game depending on the platform being played on.
