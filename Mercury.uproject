@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{5B196BBE-45E9-BBFF-148E-36B85DC8BEE7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Mercury",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "CharacterCustomizationRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PhoenixCoreRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MercuryCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MercuryCrafting",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CharacterCustomizationRuntime"
+			]
+		},
+		{
+			"Name": "MercuryOnline",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
