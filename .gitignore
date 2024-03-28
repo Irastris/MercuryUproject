@@ -73,7 +73,5 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Project Icon & CCCustomizableKit
+# Project Icon
 Mercury.png
-Source/CharacterCustomizationRuntime/*
-!Source/CharacterCustomizationRuntime/README.md

@@ -1,8 +1,6 @@
 # MercuryUproject
 
-4.25-plus Unreal project for modding Gotham Knights. This project includes implementations for a few classes utilized by the game for character rigging and transmogs.
-
-CCCustomizableKit is required, but is not distributed by this repo. Obtain it from [its Nexus page](https://www.nexusmods.com/gothamknights/mods/357?tab=files) and add its files to the necessary folder.
+4.25-plus Unreal project for modding Gotham Knights. This project is preconfigured for IO Store packaging, adds various gameplay tags, and includes implementations for a few classes utilized by the game for character rigging and suits/transmogs.
 
 Support will not be provided for this project.
 
@@ -13,6 +11,8 @@ Clone this repository, open the .uproject, and compile the necessary modules onc
 ### Classes
 
 The following classes have been implemented:
+* **CCCustomizableKit** (contributed by [@amMattGIT](https://github.com/amMattGIT))
+  - This class is used by suit recipe data assets, which define the meshes/materials/etc that any give character appearance consists of.
 * **FnxBoneConstraintSolverDefinition, FnxRBFBoneConstraint, FnxTwistBoneConstraint**
   - These classes are used by various skeletal meshes for improving the final appearance of the character rig during various deformations.
 * **MTransmog**
